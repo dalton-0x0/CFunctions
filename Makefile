@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CountGrades - Debug ]----------"
-	@cd "CountGrades" && "$(MAKE)" -f  "CountGrades.mk"
+	@echo "----------Building project:[ Exponent - Debug ]----------"
+	@cd "Exponent" && "$(MAKE)" -f  "Exponent.mk"
 clean:
-	@echo "----------Cleaning project:[ CountGrades - Debug ]----------"
-	@cd "CountGrades" && "$(MAKE)" -f  "CountGrades.mk" clean
+	@echo "----------Cleaning project:[ Exponent - Debug ]----------"
+	@cd "Exponent" && "$(MAKE)" -f  "Exponent.mk" clean

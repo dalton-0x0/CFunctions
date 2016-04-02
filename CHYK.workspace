@@ -14,7 +14,8 @@
   <Project Name="ArrayElementMode" Path="ArrayElementMode/ArrayElementMode.project" Active="No"/>
   <Project Name="MaxNum" Path="MaxNum/MaxNum.project" Active="No"/>
   <Project Name="LetterGrade" Path="LetterGrade/LetterGrade.project" Active="No"/>
-  <Project Name="CountGrades" Path="CountGrades/CountGrades.project" Active="Yes"/>
+  <Project Name="CountGrades" Path="CountGrades/CountGrades.project" Active="No"/>
+  <Project Name="Exponent" Path="Exponent/Exponent.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +34,7 @@
       <Project Name="MaxNum" ConfigName="Debug"/>
       <Project Name="LetterGrade" ConfigName="Debug"/>
       <Project Name="CountGrades" ConfigName="Debug"/>
+      <Project Name="Exponent" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +53,7 @@
       <Project Name="MaxNum" ConfigName="Release"/>
       <Project Name="LetterGrade" ConfigName="Release"/>
       <Project Name="CountGrades" ConfigName="Release"/>
+      <Project Name="Exponent" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
