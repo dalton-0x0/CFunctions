@@ -7,10 +7,11 @@
   <Project Name="CheckLegalWord" Path="CheckLegalWord/CheckLegalWord.project" Active="No"/>
   <Project Name="ValidDate" Path="ValidDate/ValidDate.project" Active="No"/>
   <Project Name="CountWords" Path="CountWords/CountWords.project" Active="No"/>
-  <Project Name="BlackJackCalc" Path="BlackJackCalc/BlackJackCalc.project" Active="Yes"/>
+  <Project Name="BlackJackCalc" Path="BlackJackCalc/BlackJackCalc.project" Active="No"/>
   <Project Name="MyMacros" Path="MyMacros/MyMacros.project"/>
   <Project Name="HW8Basic" Path="HW8Basic/HW8Basic.project"/>
   <Project Name="HW8Advanced" Path="HW8Advanced/HW8Advanced.project"/>
+  <Project Name="ArrayElementMode" Path="ArrayElementMode/ArrayElementMode.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -25,6 +26,7 @@
       <Project Name="MyMacros" ConfigName="Debug"/>
       <Project Name="HW8Basic" ConfigName="Debug"/>
       <Project Name="HW8Advanced" ConfigName="Debug"/>
+      <Project Name="ArrayElementMode" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -39,6 +41,7 @@
       <Project Name="MyMacros" ConfigName="Release"/>
       <Project Name="HW8Basic" ConfigName="Release"/>
       <Project Name="HW8Advanced" ConfigName="Release"/>
+      <Project Name="ArrayElementMode" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
