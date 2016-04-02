@@ -11,7 +11,10 @@
   <Project Name="MyMacros" Path="MyMacros/MyMacros.project"/>
   <Project Name="HW8Basic" Path="HW8Basic/HW8Basic.project"/>
   <Project Name="HW8Advanced" Path="HW8Advanced/HW8Advanced.project"/>
-  <Project Name="ArrayElementMode" Path="ArrayElementMode/ArrayElementMode.project" Active="Yes"/>
+  <Project Name="ArrayElementMode" Path="ArrayElementMode/ArrayElementMode.project" Active="No"/>
+  <Project Name="MaxNum" Path="MaxNum/MaxNum.project" Active="No"/>
+  <Project Name="LetterGrade" Path="LetterGrade/LetterGrade.project" Active="No"/>
+  <Project Name="CountGrades" Path="CountGrades/CountGrades.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +30,9 @@
       <Project Name="HW8Basic" ConfigName="Debug"/>
       <Project Name="HW8Advanced" ConfigName="Debug"/>
       <Project Name="ArrayElementMode" ConfigName="Debug"/>
+      <Project Name="MaxNum" ConfigName="Debug"/>
+      <Project Name="LetterGrade" ConfigName="Debug"/>
+      <Project Name="CountGrades" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +48,9 @@
       <Project Name="HW8Basic" ConfigName="Release"/>
       <Project Name="HW8Advanced" ConfigName="Release"/>
       <Project Name="ArrayElementMode" ConfigName="Release"/>
+      <Project Name="MaxNum" ConfigName="Release"/>
+      <Project Name="LetterGrade" ConfigName="Release"/>
+      <Project Name="CountGrades" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
