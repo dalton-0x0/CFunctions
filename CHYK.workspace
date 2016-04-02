@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CHYK" Database="">
+  <Project Name="TextBookAns" Path="CodeArea/CodeArea.project"/>
+  <Project Name="StringProperties" Path="StringProperties/StringProperties.project" Active="No"/>
+  <Project Name="BaseballCalc" Path="BaseballCalc/BaseballCalc.project" Active="No"/>
+  <Project Name="CheckPalindrome" Path="CheckPalindrome/CheckPalindrome.project" Active="No"/>
+  <Project Name="CheckLegalWord" Path="CheckLegalWord/CheckLegalWord.project" Active="No"/>
+  <Project Name="ValidDate" Path="ValidDate/ValidDate.project" Active="No"/>
+  <Project Name="CountWords" Path="CountWords/CountWords.project" Active="No"/>
+  <Project Name="BlackJackCalc" Path="BlackJackCalc/BlackJackCalc.project" Active="Yes"/>
+  <Project Name="MyMacros" Path="MyMacros/MyMacros.project"/>
+  <Project Name="HW8Basic" Path="HW8Basic/HW8Basic.project"/>
+  <Project Name="HW8Advanced" Path="HW8Advanced/HW8Advanced.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="TextBookAns" ConfigName="Debug"/>
+      <Project Name="StringProperties" ConfigName="Debug"/>
+      <Project Name="BaseballCalc" ConfigName="Debug"/>
+      <Project Name="CheckPalindrome" ConfigName="Debug"/>
+      <Project Name="CheckLegalWord" ConfigName="Debug"/>
+      <Project Name="ValidDate" ConfigName="Debug"/>
+      <Project Name="CountWords" ConfigName="Debug"/>
+      <Project Name="BlackJackCalc" ConfigName="Debug"/>
+      <Project Name="MyMacros" ConfigName="Debug"/>
+      <Project Name="HW8Basic" ConfigName="Debug"/>
+      <Project Name="HW8Advanced" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="TextBookAns" ConfigName="Release"/>
+      <Project Name="StringProperties" ConfigName="Release"/>
+      <Project Name="BaseballCalc" ConfigName="Release"/>
+      <Project Name="CheckPalindrome" ConfigName="Release"/>
+      <Project Name="CheckLegalWord" ConfigName="Release"/>
+      <Project Name="ValidDate" ConfigName="Release"/>
+      <Project Name="CountWords" ConfigName="Release"/>
+      <Project Name="BlackJackCalc" ConfigName="Release"/>
+      <Project Name="MyMacros" ConfigName="Release"/>
+      <Project Name="HW8Basic" ConfigName="Release"/>
+      <Project Name="HW8Advanced" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
